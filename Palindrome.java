@@ -1,5 +1,6 @@
 /*package week2.Day2;
 
+
 public class Palindrome {
 
 	public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class Palindrome {
 
 
 ////////////PROGRAM FOR PALINDROME////////////////
-package week2.Day2;
+/*package week2.Day2;
 
 public class Palindrome {
 
@@ -52,4 +53,30 @@ public class Palindrome {
 		System.out.println(sum);
 	}
 
+}*/
+
+
+package week2.Day2;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String name= "malayalam";
+		String temp="";
+		char[] charArray = name.toCharArray();
+		
+		for(int i=charArray.length-1;i>=0;i--) {
+			temp=temp+charArray[i];
+			
+			
+		}
+		if(temp.equals(name)) {
+			System.out.println("The given word is palindrome");
+		}else {
+			System.out.println("the given word is not palindrome");
+		}
+System.out.println(temp);
+	}
+
 }
+
