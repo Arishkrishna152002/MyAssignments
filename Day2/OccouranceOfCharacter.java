@@ -1,4 +1,4 @@
-package week2.Day2;
+ package week2.Day2;
 
 public class OccouranceOfCharacter {
 

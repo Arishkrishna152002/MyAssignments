@@ -33,7 +33,7 @@ public class FibanaaciSeries {
 		int num=5;
 		int num1=0;
 		int num2=1;
-		int num3 = 0;
+		int num3;
 		
 		for(int i=1;i<=num;i++) {
 			num3=num1+num2;
